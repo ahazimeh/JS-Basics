@@ -7,5 +7,5 @@ var div = document.createElement('div');
 // better to use CSS though - just set class
 document.body.appendChild(div);
 input.addEventListener("change",function(e){
-    div.innerHTML = "<b>"+input.value+"</b>";
+    div.innerHTML = "<p>"+input.value+"</p>";
 });
